@@ -66,6 +66,12 @@ function feedJerry(count, goodBoy) {
         });
     });
 }
+function rolyPoly(rolls, goodGirl) {
+    if (!goodGirl) {
+        return "Roly poly rolled " + rolls + " times!";
+    }
+    return "Roly poly is a good girl";
+}
 function StringOrBool(a, b) {
     return __awaiter(this, void 0, void 0, function () {
         return __generator(this, function (_a) {

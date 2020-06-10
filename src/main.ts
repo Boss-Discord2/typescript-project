@@ -36,6 +36,11 @@ async function feedJerry(count: number, goodBoy?: boolean): Promise<string|boole
     return "Jerry is a good boy"
  }
 
+ function rolyPoly(rolls: number, goodGirl?: boolean): string|boolean { 
+    if(!goodGirl){return `Roly poly rolled ${rolls} times!`}
+    return "Roly poly is a good girl"
+ }
+
  async function StringOrBool(a: string, b?: boolean): Promise<any> {
     if(b){return true}
     if(!b){return console.log("Jerry!")}
