@@ -34,7 +34,6 @@ interface Heck {
 async function feedJerry(count: number, goodBoy?: boolean): Promise<string|boolean> {
     if(!goodBoy){return `You fed jerry ${count} allys!`}
     return "Jerry is a good boy"
-    return false
  }
 
  async function StringOrBool(a: string, b?: boolean): Promise<any> {

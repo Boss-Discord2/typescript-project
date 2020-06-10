@@ -2,7 +2,7 @@
   "name": "typescript-project",
   "version": "1.0.0",
   "description": "My first TypeScript project!",
-  "main": "main",
+  "main": "./build/main",
   "dependencies": {
     "typescript": "^3.9.5"
   },
