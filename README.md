@@ -1,2 +1,2 @@
-# typescript-project
+# TypeScript-Project 
 My first TypeScript project! 
